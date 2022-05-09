@@ -7,6 +7,7 @@ import VideoCall from './componenet/VideoCall';
 function App() {
   return (
     <div className="App">
+      <h1>HI</h1>
       <Routes>
         <Route path='/login' element={ <Login/>} />
         <Route path='/video-call' element={<VideoCall/> } />
